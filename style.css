@@ -1,11 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: #1F2937;
     font-family: "Roboto", sans-serif;
+    height: 500px;
 }
 
-* {
-    border: 1px solid white;
-}
+
 
 .header {
     display: flex;
@@ -26,6 +30,19 @@ header {
 .intro {
     max-width: 400px;
     margin-right: auto;
+}
+
+.image-container {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+
+.elements {
+    display: flex;
+    max-width: 800px;
+    gap: 50px;
+    justify-items: center;
 }
 
 ul {
